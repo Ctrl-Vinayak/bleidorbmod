@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.bleidorb.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "BleidorbMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

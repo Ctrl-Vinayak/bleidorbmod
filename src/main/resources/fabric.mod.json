@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "bleidorbmod",
+  "version": "${version}",
+
+  "name": "Bleidorb Mod",
+  "description": "Bleidorb, da vin vin bleidorb MOD!!! bleidorb expands da world (:",
+  "authors": [
+    "Bleidorb aka vin vin bleidorb"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UCT8whfJ8rdkT3XZYpPxG9Yg",
+    "issues": "https://github.com/VinvinVinayakvinVin/bleidorbmod/issues",
+    "sources": "https://github.com/VinvinVinayakvinVin/bleidorbmod"
+  },
+
+  "modmenu": {
+    "links": {
+      "modmenu.discord": "https://discord.gg/jEGF5fb"
+    }
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/bleidorbmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.bleidorb.Main"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modupdater": {
+      "strategy": "curseforge",
+      "projectID": 308702,
+      "strict": false
+    },
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/EJy3nXE"
+      }
+    }
+  }
+}
+
+
