@@ -30,7 +30,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "bleidorbmod.mixins.json"
   ],
 
   "depends": {
