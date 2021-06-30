@@ -20,6 +20,7 @@ public class Main implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		//test
 		System.out.println("Hello Fabric world!");
 
 		Registry.register(Registry.ITEM, new Identifier("bleidorbmod", "kaas_item"), KAAS_ITEM);
