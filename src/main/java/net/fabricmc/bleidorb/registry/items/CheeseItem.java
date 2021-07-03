@@ -1,16 +1,15 @@
-package net.fabricmc.bleidorb.items;
+package net.fabricmc.bleidorb.registry.items;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class KaasItem extends Item {
+public class CheeseItem extends Item {
 
-    public KaasItem(Settings settings) {
+    public CheeseItem(Settings settings) {
         super(settings);
     }
 
