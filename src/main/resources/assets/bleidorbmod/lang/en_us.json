@@ -1,4 +1,5 @@
 {
   "item.bleidorbmod.cheese_item": "piece of cheese",
-  "block.bleidorbmod.cheese_block": "cheese block"
+  "block.bleidorbmod.cheese_block": "cheese block",
+  "itemGroup.bleidorbmod.general": "Bleidorb Mod"
 }

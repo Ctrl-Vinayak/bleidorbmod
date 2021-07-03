@@ -16,7 +16,7 @@ public class ModBlock {
         .sounds(BlockSoundGroup.GRASS));
 
     public static void registerBlocks() {
-        Registry.register(Registry.BLOCK, new Identifier("bleidorbmod", "cheese_block"), CHEESE_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "cheese_block"), CHEESE_BLOCK);
     }
 
 }
