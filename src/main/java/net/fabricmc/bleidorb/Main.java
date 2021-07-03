@@ -13,7 +13,10 @@ public class Main implements ModInitializer {
 
 //	public static final Item KAAS_ITEM = new KaasItem(new FabricItemSettings().group(ItemGroup.FOOD)
 //	.food(new FoodComponent.Builder().hunger(1).saturationModifier(2f).alwaysEdible().build()).maxCount(60));
-	public static final Item KAAS_ITEM = new Item(new Item.Settings().food((new FoodComponent.Builder())
+
+	public static final String MOD_ID = "bleidorbmod";
+
+	public static final Item KAAS_ITEM = new Item(new KaasItem.Settings().group(ItemGroup.MISC).food((new FoodComponent.Builder())
 		.hunger(3)
 		.saturationModifier(0.3F)
 		.build())
@@ -27,7 +30,6 @@ public class Main implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		//test
 		System.out.println("Hello Fabric world!");
 
 		Registry.register(Registry.ITEM, new Identifier("bleidorbmod", "kaas_item"), KAAS_ITEM);
