@@ -20,13 +20,16 @@
     }
   },
 
-  "license": "CC0-1.0",
+  "license": "All Rights Reserved",
   "icon": "assets/bleidorbmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.fabricmc.bleidorb.Main"
+    ],
+    "client": [
+      "net.fabricmc.bleidorb.MainClient"
     ]
   },
   "mixins": [
